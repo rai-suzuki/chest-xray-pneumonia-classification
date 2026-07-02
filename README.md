@@ -31,6 +31,8 @@
 ```text
 .
 ├── README.md
+├── data/
+│   └── chest_xray  ← ダウンロードデータ
 ├── notebooks/
 │   └── pneumonia_classification.ipynb
 ├── src/
@@ -49,8 +51,8 @@
 
 1. 本リポジトリをクローンします。
 ```bash
-git clone ---
-cd ---
+git clone git@github.com:rai-suzuki/chest-xray-pneumonia-classification.git
+cd chest-xray-pneumonia-classification
 
 ```
 
